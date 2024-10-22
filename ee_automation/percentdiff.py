@@ -1,4 +1,3 @@
-
 def percent_diff(a: float, b: float) -> float:
     """Calculates the difference the values are as a percentage of their average value
 
@@ -9,12 +8,10 @@ def percent_diff(a: float, b: float) -> float:
     Returns:
         float: _description_
     """
-# a = float(eval(input("a: ")))
-# b = float(eval(input("b: ")))
 
-    diff = (abs(a - b) / ((a + b)/2)) * 100
-    # print(f"\n{diff}%")
+    diff = (abs(a - b) / ((a + b) / 2)) * 100
     return diff
+
 
 def percent_error(a: float, b: float) -> float:
     """Calculates the percent difference between two numbers

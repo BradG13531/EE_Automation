@@ -1,6 +1,7 @@
 from scipy import interpolate
 import numpy as np
 
+
 def find_intersection(x, y1, y2) -> tuple:
     """Finds the intersection point between two lines
 
@@ -19,7 +20,7 @@ def find_intersection(x, y1, y2) -> tuple:
 
     # Find the difference between the two functions
     diff = np.abs(y1 - y2)
-    
+
     # Find when difference is minimized
     idx = np.argmin(diff)
 
